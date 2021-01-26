@@ -27,5 +27,6 @@ class OverviewActivity(contentLayoutId: Int) : AppCompatActivity(contentLayoutId
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.overview)
     }
 }
